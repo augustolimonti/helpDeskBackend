@@ -74,7 +74,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'helpdeskbackend.wsgi.application'
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3007']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3007', 'https://help-desk-frontend-two.vercel.app']
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
