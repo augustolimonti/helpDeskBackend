@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-okz+&c&z%lnp5x0&sb17l11*g7+60&j6qoz67at27kmf6$&1qs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.221.23.167']
+ALLOWED_HOSTS = ['18.221.23.167', '3.139.86.231']
 
 
 # Application definition
@@ -74,7 +74,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'helpdeskbackend.wsgi.application'
 
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'https://help-desk-frontend-two.vercel.app']
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'https://help-desk-frontend-two.vercel.app', 'https://help-desk-app-zeta.vercel.app/']
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
