@@ -35,7 +35,7 @@ For secure communication, I've used a self-signed SSL certificate. Note: In a re
 
 # Future Add-Ons I would Consider
 As the backend evolves, there are several improvements and new features that can be incorporated to enhance both security and functionality. 
-Two honorable mentions are the following:
+Three honorable mentions are the following:
 
 1. API Encryption:
   - Description: Encrypt all data sent to and from the API to ensure secure data exchange and protection against man-in-the-middle attacks.
