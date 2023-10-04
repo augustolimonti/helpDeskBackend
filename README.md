@@ -5,9 +5,7 @@ This backend is designed to power a basic "help desk" or support ticket manageme
 # Table of Contents
  - Features
  - Hosting on AWS EC2
- - Setup & Installation
  - SSL Configuration
- - Deployment with Nginx
  - API Endpoints
  - Contributing
 
@@ -46,6 +44,10 @@ Two honorable mentions are the following:
 2. Admin Authentication:
   - Description: Ensure that only authorized personnel can access the admin panel and make administrative changes.
   - Implementation: Implement a robust username/password authentication mechanism, possibly using Django's built-in admin authentication or integrating with frameworks like django-allauth or django-rest-auth.
+
+3. SSL-secured Domain:
+ - Point a legitimate domain name to the EC2 instance to ensure users don't encounter warnings or mixed content issues.
+ - By doing so, the front end will operate smoothly without hitches related to insecure content.
 
 
 
